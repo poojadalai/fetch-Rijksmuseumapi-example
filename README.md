@@ -20,7 +20,7 @@ This file has two assessments:
 After creating an account, I got an API key.
 2. Read all API and their properties.
 Added Parameters to get multiple data.
-3. Basic JavaScript to fetch data(Didn't use the framework).
+3. Used basic JavaScript to fetch data.
 4. Designed Index Page to display data with a search box.
 5. Filtering of data to search.
 Used f.normalized32Colors.hex parameter to filter data for search page.
