@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 700px;
+    padding: 20px;
+}
+.p-9{
+    padding: 9px;
+}
+.logo{
+    padding: 14px;
+    position: absolute;
+    left: 100px;
+    height: fit-content;
+    background-color: #0f0f0f87;
+    /* backdrop-filter: blur(1px); */
+    color: #decaa9;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    color: var(--color5);
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.title{
+  font-weight: 700;
+}
+
+.long{
+  font-size: 14px;
+  color: #6d6d6d;
+  text-decoration: underline;
+}
+
+
+.header{
+    background: url("images/new.png");
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*  */
+.row{
+    display: flex;
+}
+
+span{
+    display: flex;
+    padding: 10px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    display: inline-block;
+    flex-direction: column;
+    height: 350px;
+    padding: 10px;
+   
+}
+
+/* Style the images inside the grid */
+.column img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+  cursor: pointer; 
+   width: 300px;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.header {
+  margin-bottom : 20px;
+ 
+}
+/* 
+.header img{
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+} */
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+/*  */
+.row{
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.categories{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-3{
+   flex-basis: 23%;
+   margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+  padding-top: 25px
+}
+
+
+@media only screen and (max-width: 600px){
+.col-3 {
+  flex-basis: 100%;
+}
+
+.search-container{
+  justify-content: center;
+    display: flex;
+}
+
+.logo{
+  display: none;
+}
+
+.navbar{
+  height: 200px;
+}
+
+.small-container{
+  padding: 0px;
+}
+}
